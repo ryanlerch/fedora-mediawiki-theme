@@ -30,11 +30,4 @@ class SkinFedora extends SkinTemplate {
 			'skins.fedora.js',
 		) );
 	}
-
-	/**
-	 * @param $out OutputPage
-	 */
-	function setupSkinUserCss( OutputPage $out ) {
-		parent::setupSkinUserCss( $out );
-	}
 }

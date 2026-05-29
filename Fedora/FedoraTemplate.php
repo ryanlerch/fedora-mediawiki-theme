@@ -4,6 +4,8 @@
  *
  * @ingroup Skins
  */
+use MediaWiki\Html\Html;
+
 class FedoraTemplate extends BaseTemplate {
 	/**
 	 * Outputs the entire contents of the page
